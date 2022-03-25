@@ -18,11 +18,15 @@ console.log('Druhý příklad - rozdíl mezi <= a <');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+for (let x = 0; x < 10; x++) {
+  console.log(x);
+}
 
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+for (let x = 10; x > 0; x--) {
+  console.log(x);
+}
